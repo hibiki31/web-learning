@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.min.css">
+  <title>ToDoアプリ</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <h2>ToDoアプリ</h2>
+  WEB SQLの動作や使用感を知りたかったので，GitHubで公開されているものを少し弄って確認しました．
+  <div>
+    <input type="text" name=todo />
+  <button type="button" name=submit>追加</button>
+  <table id="table">
+    <thead>
+      <tr>
+        <th>No</th>
+        <th>Name</th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  </div>
+  <h2>参考</h2>
+  <ol>
+    <li><a href="https://github.com/hysdsk/WebSqlDatabase" target="_blank" rel="noopener noreferrer">Githubリポジトリ</a></li>
+    <li><a href="https://www.webcreatorbox.com/webinfo/classless-css-frameworks" target="_blank" rel="noopener noreferrer">Classless CSSの紹介記事</a></li>
+    <li><a href="https://wwg.co.jp/blog/3807" target="_blank" rel="noopener noreferrer">リンクを別タブで開く時の方法と注意点</a></li>
+  </ol>
+  <footer>
+    <nav>
+      <a href="https://github.com/hibiki31">@hibiki31</a>
+    </nav>
+  </footer>
+  <script src="./dao.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
